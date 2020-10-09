@@ -1,0 +1,20 @@
+package br.com.JogoDaNave;
+import javax.swing.JFrame;
+
+public class containerDeJanelas extends JFrame {
+
+	public containerDeJanelas() {
+		//Para rodar alguma janela sobre ela , use  o this.add(nossaJanela);
+		add(new Fase());
+		setTitle("Meu primeiro jogo");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(500, 462);
+		setLocationRelativeTo(null);//Mostra onde a jabela vai aparecer , no caso é no centro , portanto o parametro é nulo
+		//setResizable(false);// para o usuario não redefinir a tela.
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+	  new containerDeJanelas();
+	}
+}
