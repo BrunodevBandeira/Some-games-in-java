@@ -1,6 +1,6 @@
 # Some-games-in-java
 
-   ![alt text](https://googlediscovery.com/wp-content/uploads/google-jogo-da-velha.png)
+   ![alt text](https://blog.dankicode.com/wp-content/uploads/2019/06/pixel-art.png)
    
    1 - **Jogo da velha**
      
